@@ -1,12 +1,14 @@
+package test;
+
 public class hello {
     public static void main(String[] args){
-        System.out.println("hello world");
+        System.out.println("test.hello world");
         // 判断年龄
         int age = 7;
         boolean judgeage = age > 16;
         System.out.println(judgeage ? "yes" : "no");
         //
-        String s = "hello";
+        String s = "test.hello";
         String t = s;
         s = "world";
         System.out.println(t);

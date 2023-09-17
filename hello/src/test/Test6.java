@@ -1,3 +1,5 @@
+package test;
+
 public class Test6 {
     public static void main(String[] args) {
         Person ming = new Person("小明", 12);
